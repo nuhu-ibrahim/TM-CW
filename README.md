@@ -1,4 +1,4 @@
-# Text Mining
+# Text Mining - Coursework
 This is the github repository for all our text mining courseworks
 
 ## Folder Structure
