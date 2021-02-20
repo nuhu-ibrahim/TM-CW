@@ -42,4 +42,13 @@ git status
 # ...and that is all.
 ```
 
+#### Checking to see the changes you have made to a file:
+```bash
+
+# Run the command below on your terminal.
+git diff
+
+# ...and that is all.
+```
+
 For detailed explanation on how things work, you can take a brief git course. Always comes handy.
