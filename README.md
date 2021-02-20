@@ -9,8 +9,9 @@ This is the github repository for all our text mining courseworks
 You can follow the following steps to setup this repository on your personal computer. Steps are also here for any one new to github on how to make updates to these files and upload the changes to the central repository. 
 
 #### Cloning the repository to your personal computer:
+You need to first install git on your computer [Link here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 ```bash
-# You need to first install git on your computer [Link here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 # Run the command below on your terminal. You should first navigate to the location where you would like the TM-CW folder to be located.
 git clone https://github.com/nuhu-ibrahim/TM-CW.git
