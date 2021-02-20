@@ -6,20 +6,23 @@ This is the github repository for all our text mining courseworks
 #### CW2: Is the folder where everything relating to coursework 2 will be saved
 
 ## Build Setup
-### You can follow the following steps to setup this repository on your personal computer
+You can follow the following steps to setup this repository on your personal computer. Steps are also here for any one new to github on how to make updates to these files and upload the changes to the central repository. 
+
+#### Cloning the repository to your personal computer
 ```bash
-# install dependencies
-$ npm install
+# You need to first install git on your computer [Link here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+# Then run the comman below on your terminal, and that is it.
+git clone https://github.com/nuhu-ibrahim/TM-CW.git
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+#### Updating the repository after you may have modified or added some files.
+
+```bash
+# You need to first install git on your computer [Link here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+# Then run the comman below on your terminal, and that is it.
+git clone https://github.com/nuhu-ibrahim/TM-CW.git
+```
+
+For detailed explanation on how things work, you can take a brief git course. Always comes handy.
