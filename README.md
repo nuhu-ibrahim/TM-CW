@@ -21,7 +21,7 @@ git clone https://github.com/nuhu-ibrahim/TM-CW.git
 #### Updating the repository after you may have modified or added some files:
 
 ```bash
-# Run the command below on your terminal. You need to first navite into the TM-CW folder.
+# Run the following commands on your terminal. You need to first navite into the TM-CW folder.
 git add .
 git commit -m "<Your commit message>"
 git push
@@ -31,7 +31,15 @@ git push
 ### And now you are good. Cheers!
 
 ## Extras
+Below are some few extras on git
 
+#### Checking to know if there are files on your local computer that are not yet committed:
+```bash
 
+# Run the command below on your terminal.
+git status
+
+# ...and that is all.
+```
 
 For detailed explanation on how things work, you can take a brief git course. Always comes handy.
