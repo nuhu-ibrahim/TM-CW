@@ -5,9 +5,8 @@ This is the github repository for all our text mining courseworks
 #### CW1: Is the folder where everything relating to coursework 1 will be saved
 #### CW2: Is the folder where everything relating to coursework 2 will be saved
 
-
 ## Build Setup
-
+### You can follow the following steps to setup this repository on your personal computer
 ```bash
 # install dependencies
 $ npm install
