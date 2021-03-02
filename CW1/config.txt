@@ -5,5 +5,4 @@ stopwords_path: stopwords.txt
 # Remote files
 git_data_path: "https://raw.githubusercontent.com/nuhu-ibrahim/TM-CW/main/CW1/train_5500.label.txt"
 git_stopword_path: "https://raw.githubusercontent.com/nuhu-ibrahim/TM-CW/main/CW1/stopwords.txt"
-
 git_test_data_path: "https://raw.githubusercontent.com/nuhu-ibrahim/TM-CW/main/CW1/TREC_10.label.txt"
