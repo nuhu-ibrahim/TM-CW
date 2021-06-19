@@ -1,0 +1,67 @@
+# Ensemble Configuration File
+
+# data file path
+file_path:
+ train_data_path: train_dataset.txt
+ val_data_path: val_dataset.txt
+ test_data_path: test_dataset.txt
+ stopwords_path: stopwords.txt
+ pretrained_path: glove.small.txt
+
+#preprocess
+preprocess:
+ lowercase: true
+ remove_stop_words: false
+ remove_special_characters: false
+ replace_abbreviations: false
+ remove_white_space: false
+
+#model
+model: ensemble
+boost_rate: 0.6  # Boost Rate
+
+submodel:
+ model1:
+  model_type: BiLSTM  # BiLSTM or BOW
+  embedding: random  # embedding: pretrained || random
+  epoch: 10
+  embedding_dim: 32
+  hidden_dim: 16
+  lr: 0.09  # Learning Rate
+  freeze: false  # For Fine-Tuned, set freeze to false.
+ 
+ model2:
+  model_type: BiLSTM  # BiLSTM or BOW
+  embedding: random  # embedding: pretrained || random
+  epoch: 10
+  embedding_dim: 64
+  hidden_dim: 32
+  lr: 0.08  # Learning Rate
+  freeze: false  # For Fine-Tuned, set freeze to false.
+ 
+ model3:
+  model_type: BiLSTM  # BiLSTM or BOW
+  embedding: random  # embedding: pretrained || random
+  epoch: 10
+  embedding_dim: 64
+  hidden_dim: 16
+  lr: 0.06  # Learning Rate
+  freeze: false  # For Fine-Tuned, set freeze to false.
+ 
+ model4:
+  model_type: BiLSTM  # BiLSTM or BOW
+  embedding: random  # embedding: pretrained || random
+  epoch: 10
+  embedding_dim: 32
+  hidden_dim: 32
+  lr: 0.1  # Learning Rate
+  freeze: true  # For Fine-Tuned, set freeze to false.
+ 
+ model5:
+  model_type: BiLSTM  # BiLSTM or BOW
+  embedding: random  # embedding: pretrained || random
+  epoch: 10
+  embedding_dim: 64
+  hidden_dim: 64
+  lr: 0.07  # Learning Rate
+  freeze: false  # For Fine-Tuned, set freeze to false.
