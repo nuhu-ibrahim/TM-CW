@@ -18,3 +18,4 @@ remove_white_space: true
 remove_stop_words: true
 lemmatize_words: true
 remove_numbers: true
+remove_others_tokens: true
