@@ -16,3 +16,4 @@ remove_special_characters: true
 replace_abbreviations: true
 remove_white_space: true
 remove_stop_words: true
+lemmatize_words: true
