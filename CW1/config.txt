@@ -1,13 +1,14 @@
 data_path: training_set.txt
 test_data_path: test_set.txt
 stopwords_path: stopwords.txt
-glove_path: glove.small.txt
+glove_path: glove.6B.100d.txt
 
 # Remote files
 git_data_path: "https://raw.githubusercontent.com/nuhu-ibrahim/TM-CW/main/CW1/train_5500.label.txt"
 git_stopword_path: "https://raw.githubusercontent.com/nuhu-ibrahim/TM-CW/main/CW1/stopwords.txt"
 git_test_data_path: "https://raw.githubusercontent.com/nuhu-ibrahim/TM-CW/main/CW1/TREC_10.label.txt"
 git_glove_path: "https://raw.githubusercontent.com/nuhu-ibrahim/TM-CW/main/CW1/glove.small.txt"
+google_glove_path: "https://drive.google.com/uc?id=1V9CXyRvMFYiCpmtYITbp1iCc0rw5D5_t"
 
 # Model Settings 
 epoch: 10
@@ -20,3 +21,4 @@ lemmatize_words: true
 remove_numbers: true
 remove_others_tokens: true
 replace_emojis_with_words: false
+correct_spelling: true
