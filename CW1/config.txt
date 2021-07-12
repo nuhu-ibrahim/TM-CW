@@ -21,4 +21,4 @@ lemmatize_words: true
 remove_numbers: true
 remove_others_tokens: true
 replace_emojis_with_words: false
-correct_spelling: true
+correct_spelling: false
