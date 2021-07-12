@@ -8,7 +8,7 @@ git_data_path: "https://raw.githubusercontent.com/nuhu-ibrahim/TM-CW/main/CW1/tr
 git_stopword_path: "https://raw.githubusercontent.com/nuhu-ibrahim/TM-CW/main/CW1/stopwords.txt"
 git_test_data_path: "https://raw.githubusercontent.com/nuhu-ibrahim/TM-CW/main/CW1/TREC_10.label.txt"
 git_glove_path: "https://raw.githubusercontent.com/nuhu-ibrahim/TM-CW/main/CW1/glove.small.txt"
-google_glove_path: "https://drive.google.com/uc?id=1V9CXyRvMFYiCpmtYITbp1iCc0rw5D5_t"
+google_glove_path: "https://drive.google.com/uc?id=121Sv_zDy0a3UuKhrflrHqQdimf_nMGz2"
 
 # Model Settings 
 epoch: 10
